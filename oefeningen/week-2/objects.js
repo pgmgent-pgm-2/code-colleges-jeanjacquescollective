@@ -8,4 +8,7 @@ const auto = {
 
 auto.jaar = "rood";
 
+
+
 // oefening persoon
+
