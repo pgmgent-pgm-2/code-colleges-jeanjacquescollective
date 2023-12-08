@@ -1,8 +1,9 @@
 const aanwezigen = ["Jordan", "Arno", "Matthias"];
 
+
 const [naam1, naam2, naam3, naam4 = "Yusuf"] = aanwezigen;
 
-console.log(naam4);
+console.log(naam1);
 
 // spread operator
 const dier = "kat";
@@ -14,7 +15,7 @@ console.log(staart);
 const nummers = [1, 2, 3, 4, 5];
 
 const [getal, ...rest] = nummers;
-console.log(rest);
+console.log(rest); // [2, 3, 4, 5]
 
 const letters = ["a", "b"];
 

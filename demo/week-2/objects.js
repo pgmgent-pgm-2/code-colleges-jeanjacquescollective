@@ -8,7 +8,7 @@ const person = {
   },
 };
 
-console.log(person.name);
+console.log(person.name );
 console.log(person["name"]);
 
 // voor variabelen gebruiken we square-bracket notatie
