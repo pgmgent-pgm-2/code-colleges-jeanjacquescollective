@@ -1,0 +1,1 @@
+Dit zijn de gegevens die naar het bestand worden geschreven.

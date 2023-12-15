@@ -1,0 +1,25 @@
+{
+  "name": "npm-demo",
+  "version": "1.0.0",
+  "description": "A npm demo project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "",
+    "test": "test",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "npm",
+    "demo",
+    "pgm-2"
+  ],
+  "author": "Jannes Lambrecht",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0"
+  }
+}
