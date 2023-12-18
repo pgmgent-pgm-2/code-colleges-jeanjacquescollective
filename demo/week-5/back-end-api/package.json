@@ -1,0 +1,15 @@
+{
+  "name": "back-end-api",
+  "version": "1.0.0",
+  "description": "Demo of a backend RESTful API ",
+  "main": "src/app.js ",
+  "scripts": {
+    "start" : "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

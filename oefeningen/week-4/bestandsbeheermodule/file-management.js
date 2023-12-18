@@ -22,4 +22,6 @@ async function leesUitBestand(bestandsnaam) {
   });
 }
 
+
+
 module.exports = { schrijfNaarBestand, leesUitBestand };
