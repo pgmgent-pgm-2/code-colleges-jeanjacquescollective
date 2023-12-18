@@ -10,11 +10,9 @@ const teSchrijvenGegevens = 'Dit zijn de gegevens die naar het bestand worden ge
 // Schrijf gegevens naar het bestand
 fileManagement.schrijfNaarBestand(bestandsnaam, teSchrijvenGegevens);
 
-// Lees gegevens uit het bestand
-const gelezenGegevens = fileManagement.leesUitBestand(bestandsnaam);
+fileManagement.leesUitBestand(bestandsnaam);
 
-// Doe iets met de gelezen gegevens (bijvoorbeeld verder verwerken)
-if (gelezenGegevens) {
-    // Voeg hier je verdere logica toe
-    console.log(gelezenGegevens)
-}
+// Lees gegevens uit het bestand
+leesGegevens();
+
+
