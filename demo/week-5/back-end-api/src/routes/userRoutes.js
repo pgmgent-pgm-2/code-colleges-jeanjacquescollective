@@ -1,10 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const UserController = require("../controllers/userController")
-
+const UserController = require("../controllers/userController");
 
 router.get("/", UserController.getAllUsers);
-
 
 // dynamische path-parameters
 router.get("/:userId", (request, response) => {
@@ -12,9 +10,8 @@ router.get("/:userId", (request, response) => {
   response.send(`Welkom user met id ${id}`);
 });
 
-router.post("/", (request, response) => {
-  response.send("User aangemaakt");
-});
+router.post("/", UserController.createUser);
+
 
 
 module.exports = router;

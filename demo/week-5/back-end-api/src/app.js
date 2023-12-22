@@ -1,8 +1,10 @@
 const express = require("express");
 const userRoutes = require("./routes/userRoutes");
-
+const bodyParser = require("body-parser");
 const app = express();
 const PORT = process.env.PORT ?? 3000;
+
+app.use(bodyParser.json());
 
 const middlewareFunction = (request, response, next) => {
   // voer hier middleware logica uit
@@ -29,4 +31,5 @@ app.get("/search", (request, response) => {
   response.send(`Je zocht naar ${searchValue}`);
 });
 
-app.use("/users", userRoutes);
+// gebruiken van user routes
+app.use("/api/users", userRoutes);
