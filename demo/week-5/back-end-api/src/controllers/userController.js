@@ -41,6 +41,4 @@ async function createUser(request, response) {
 module.exports = {
   getAllUsers,
   createUser,
-  updateUser,
-  deleteUser
 };
