@@ -1,67 +1,106 @@
 {
   "countries": [
     {
+      "id": 1,
       "name": "United States",
       "code": "US",
-      "rank": 1
+      "rank": 1,
+      "population": 331002651,
+      "continent": "North America"
     },
     {
+      "id": 2,
       "name": "Canada",
       "code": "CA",
-      "rank": 10
+      "rank": 10,
+      "population": 37742154,
+      "continent": "North America"
     },
     {
+      "id": 3,
       "name": "United Kingdom",
       "code": "GB",
-      "rank": 6
+      "rank": 6,
+      "population": 67886011,
+      "continent": "Europe"
     },
     {
+      "id": 4,
       "name": "Australia",
       "code": "AU",
-      "rank": 13
+      "rank": 13,
+      "population": 25499884,
+      "continent": "Oceania"
     },
     {
+      "id": 5,
       "name": "Germany",
       "code": "DE",
-      "rank": 4
+      "rank": 4,
+      "population": 83783942,
+      "continent": "Europe"
     },
     {
+      "id": 6,
       "name": "Brazil",
-      "code": "BR"
+      "code": "BR",
+      "population": 212559417,
+      "continent": "South America"
     },
     {
+      "id": 7,
       "name": "Italy",
-      "code": "IT"
+      "code": "IT",
+      "population": 60461826,
+      "continent": "Europe"
     },
     {
+      "id": 8,
       "name": "Netherlands",
       "code": "NL",
-      "rank": 19
+      "rank": 19,
+      "population": 17134872,
+      "continent": "Europe"
     },
     {
+      "id": 9,
       "name": "Sweden",
       "code": "SE",
-      "rank": 14
+      "rank": 14,
+      "population": 10099265,
+      "continent": "Europe"
     },
     {
+      "id": 10,
       "name": "Norway",
       "code": "NO",
-      "rank": 9
+      "rank": 9,
+      "population": 5421241,
+      "continent": "Europe"
     },
     {
+      "id": 11,
       "name": "Switzerland",
       "code": "CH",
-      "rank": 11
+      "rank": 11,
+      "population": 8654622,
+      "continent": "Europe"
     },
     {
+      "id": 12,
       "name": "United Arab Emirates",
       "code": "AE",
-      "rank": 22
+      "rank": 22,
+      "population": 9890402,
+      "continent": "Asia"
     },
     {
+      "id": 13,
       "name": "Greece",
       "code": "GR",
-      "rank": 28
+      "rank": 28,
+      "population": 10423054,
+      "continent": "Europe"
     }
   ]
 }
