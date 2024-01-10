@@ -7,7 +7,7 @@ async function fetchData(dataPath) {
 }
 
 async function writeData(dataPath, data) {
-  await fsp.writeFile(dataPath, JSON.stringify({ data }, null, 2));
+  await fsp.writeFile(dataPath, JSON.stringify({ countries: data }, null, 2));
 }
 
 module.exports = {

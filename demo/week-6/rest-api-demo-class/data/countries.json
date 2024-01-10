@@ -1,5 +1,5 @@
 {
-  "data": [
+  "countries": [
     {
       "id": 1,
       "name": "United States",
@@ -104,6 +104,14 @@
     },
     {
       "id": 14,
+      "name": "foo"
+    },
+    {
+      "id": 15,
+      "name": "foo"
+    },
+    {
+      "id": 16,
       "name": "foo"
     }
   ]
