@@ -11,8 +11,8 @@ const app = express();
 // laat alle origins toe op je API
 
 const corsOptions = {
-    origin: 'onzeUrl',
-    methods: 'GET, PUT, PATCH, POST, DELETE'
+    origin: ['http://localhost:3000', 'http://localhost:3050', 'http://localhost:5500'],
+    methods: 'GET, PUT, PATCH, POST, DELETE',
 }
 app.use(cors(corsOptions));
 
