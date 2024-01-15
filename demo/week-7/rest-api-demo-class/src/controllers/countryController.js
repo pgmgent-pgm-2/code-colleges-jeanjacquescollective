@@ -12,7 +12,7 @@ const countriesFilePath = path.join(
 async function getAllCountries(request, response) {
   try {
     const { countries } = await utils.fetchData(countriesFilePath);
-    response.json({ countries });
+    response.status(200).json({ countries });
   } catch (error) {
     console.log(error);
     response.status(500).json({ error: "Internal Server Error " });
